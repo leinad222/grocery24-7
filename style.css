@@ -927,3 +927,864 @@ footer p {
 .pc-1{
     background: url(images/various-fresh-vegetables-container-black-wooden-surface.jpg) center/cover;
 }
+/* Large Desktop (2560px and above) */
+@media (min-width: 2560px) {
+    .app {
+        width: 85%;
+    }
+    
+    .header {
+        width: 85%;
+    }
+    
+    .hero-info h2 {
+        font-size: 72px;
+        line-height: 80px;
+    }
+    
+    .section-name h2 {
+        font-size: 48px;
+    }
+    
+    .product-card {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+/* Desktop (1920px - 2559px) */
+@media (min-width: 1920px) {
+    .app {
+        width: 85%;
+    }
+    
+    .header {
+        width: 85%;
+    }
+}
+
+/* Tablet Landscape (1366px - 1919px) */
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .category-box {
+        gap: 15px;
+    }
+    
+    .contact-content {
+        gap: 40px;
+    }
+}
+
+/* Large Tablet & Small Desktop (1024px - 1365px) */
+@media (max-width: 1365px) {
+    .app {
+        width: 92%;
+    }
+    
+    .header {
+        width: 92%;
+        padding: 20px 0;
+    }
+    
+    nav {
+        width: 600px;
+        padding: 15px 20px;
+    }
+    
+    .hero {
+        padding: 50px 30px;
+        min-height: 350px;
+    }
+    
+    .hero-info h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    
+    .hero-search-box input {
+        width: 200px;
+    }
+    
+    .product-card {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .section-name h2 {
+        font-size: 28px;
+    }
+    
+    .cart-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .cart-summary {
+        position: relative;
+        top: 0;
+    }
+    
+    .login-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .login-image {
+        height: 350px;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablet Portrait (768px - 1023px) */
+@media (max-width: 1023px) {
+    .app {
+        width: 95%;
+    }
+    
+    .header {
+        width: 95%;
+        flex-direction: column;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+    
+    .font-logo {
+        font-size: 20px;
+    }
+    
+    nav {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 1rem;
+    }
+    
+    nav > div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    nav a {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    
+    .nav-right-option {
+        position: relative;
+        top: auto;
+        right: auto;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .nav-right-option i {
+        width: 30px;
+        margin: 0;
+    }
+    
+    .hero {
+        margin-top: 250px;
+        padding: 40px 20px;
+        flex-direction: column;
+        min-height: 0;
+    }
+    
+    .hero-image {
+        position: relative;
+        width: 100%;
+        top: auto;
+        transform: none;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+    
+    .hero-info {
+        width: 100%;
+    }
+    
+    .hero-info h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .hero-search-box input {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .category-box {
+        gap: 15px;
+    }
+    
+    .category-box .box {
+        flex: 0 1 calc(50% - 10px);
+        min-height: 150px;
+    }
+    
+    .section-name {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .section-name h2 {
+        font-size: 24px;
+    }
+    
+    .product-card {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .product-box {
+        gap: 15px;
+    }
+    
+    .cart-table {
+        font-size: 12px;
+    }
+    
+    .cart-table th,
+    .cart-table td {
+        padding: 10px 5px;
+    }
+    
+    .cart-product img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .login-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .login-box {
+        padding: 30px;
+    }
+    
+    .login-image {
+        height: 300px;
+    }
+    
+    .contact-container {
+        padding: 30px 0;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+/* Large Mobile (480px - 767px) */
+@media (max-width: 767px) {
+    .app {
+        width: 95%;
+    }
+    
+    .header {
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 10px;
+    }
+    
+    .logo {
+        width: 60px;
+    }
+    
+    .font-logo {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    
+    nav {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 0.8rem;
+    }
+    
+    nav > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+    
+    nav a {
+        font-size: 12px;
+        margin: 0;
+        padding: 5px 10px;
+    }
+    
+    .nav-right-option {
+        position: relative;
+        top: auto;
+        right: auto;
+        gap: 10px;
+    }
+    
+    .nav-right-option a {
+        margin: 0;
+    }
+    
+    .nav-right-option i {
+        width: 20px;
+        font-size: 16px;
+    }
+    
+    .hero {
+        margin-top: 220px;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+    
+    .hero-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-info {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .hero-info h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 0 20px 0;
+    }
+    
+    .hero-search-box {
+        justify-content: center;
+    }
+    
+    .hero-search-box input {
+        width: 90%;
+        max-width: 280px;
+        font-size: 12px;
+    }
+    
+    .section-name {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .section-name h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .section-name button {
+        align-self: flex-end;
+    }
+    
+    .category-box {
+        gap: 10px;
+    }
+    
+    .category-box .box {
+        flex: 0 1 calc(50% - 5px);
+        min-height: 120px;
+        padding: 10px;
+    }
+    
+    .product-card {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+    
+    .product-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .product-details {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .product-details h3 {
+        font-size: 16px;
+    }
+    
+    .product-details p {
+        font-size: 14px;
+    }
+    
+    .card-buttons .buy {
+        width: 100%;
+    }
+    
+    /* Cart Page Mobile */
+    .cart-container h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .cart-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .cart-table {
+        font-size: 11px;
+    }
+    
+    .cart-table th,
+    .cart-table td {
+        padding: 8px 5px;
+    }
+    
+    .cart-product {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+    
+    .cart-product img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .quantity-control {
+        width: 80px;
+    }
+    
+    .qty-btn {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+    
+    .quantity-control input {
+        width: 30px;
+        font-size: 12px;
+    }
+    
+    .cart-summary {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .cart-summary h3 {
+        font-size: 18px;
+    }
+    
+    /* Login Page Mobile */
+    .login-section {
+        margin-top: 150px;
+        padding: 20px;
+    }
+    
+    .login-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .login-box {
+        padding: 20px;
+    }
+    
+    .login-box h2 {
+        font-size: 24px;
+    }
+    
+    .login-image {
+        height: 250px;
+    }
+    
+    .form-group input {
+        font-size: 16px;
+        padding: 12px 40px 12px 12px;
+    }
+    
+    .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    /* Contact Page Mobile */
+    .contact {
+        padding: 30px 15px;
+    }
+    
+    .contact h2 {
+        font-size: 28px;
+    }
+    
+    .contact-intro {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .info-item {
+        padding: 20px 15px;
+    }
+    
+    .info-item i {
+        font-size: 30px;
+    }
+    
+    .info-item h3 {
+        font-size: 16px;
+    }
+    
+    .contact-form {
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+        padding: 12px;
+    }
+    
+    .submit-btn {
+        padding: 12px;
+    }
+}
+
+/* Small Mobile (360px - 479px) */
+@media (max-width: 479px) {
+    .app {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .header {
+        width: 100%;
+        padding: 8px 0;
+    }
+    
+    .logo {
+        width: 50px;
+    }
+    
+    .font-logo {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    
+    nav {
+        width: 100%;
+        padding: 8px;
+    }
+    
+    nav a {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    
+    nav a:before {
+        font-size: 12px;
+        margin-right: 2px;
+    }
+    
+    .nav-right-option {
+        gap: 8px;
+    }
+    
+    .nav-right-option i {
+        width: 18px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+    .hero {
+        margin-top: 180px;
+        padding: 15px 8px;
+        border-radius: 8px;
+    }
+    
+    .hero-image {
+        height: 180px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-info h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-search-box input {
+        width: 85%;
+        max-width: 250px;
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    
+    .section-name h2 {
+        font-size: 18px;
+    }
+    
+    .category-box {
+        gap: 8px;
+    }
+    
+    .category-box .box {
+        flex: 0 1 calc(33.333% - 6px);
+        min-height: 100px;
+        padding: 8px;
+    }
+    
+    .product-card {
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+    }
+    
+    .product-details h3 {
+        font-size: 14px;
+    }
+    
+    .product-details p {
+        font-size: 12px;
+    }
+    
+    .card-buttons .buy {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    /* Mobile Tables */
+    .cart-table {
+        font-size: 10px;
+    }
+    
+    .cart-table th,
+    .cart-table td {
+        padding: 6px 3px;
+    }
+    
+    .cart-product span {
+        display: none;
+    }
+    
+    .quantity-control {
+        width: 70px;
+    }
+    
+    .qty-btn {
+        padding: 4px 6px;
+        font-size: 11px;
+    }
+    
+    .quantity-control input {
+        width: 25px;
+        font-size: 11px;
+    }
+    
+    /* Login Mobile */
+    .login-section {
+        margin-top: 140px;
+        padding: 15px;
+    }
+    
+    .login-box {
+        padding: 15px;
+    }
+    
+    .login-box h2 {
+        font-size: 20px;
+    }
+    
+    .login-box p {
+        font-size: 12px;
+    }
+    
+    .form-group label {
+        font-size: 12px;
+    }
+    
+    .form-group input {
+        padding: 10px 35px 10px 10px;
+        font-size: 14px;
+    }
+    
+    .remember-forgot {
+        font-size: 12px;
+    }
+    
+    .social-btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .signup-link {
+        font-size: 12px;
+    }
+    
+    .login-image {
+        height: 200px;
+    }
+    
+    /* Contact Mobile */
+    .contact {
+        padding: 20px 10px;
+        margin-top: 30px;
+    }
+    
+    .contact h2 {
+        font-size: 22px;
+    }
+    
+    .contact-intro {
+        font-size: 12px;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-item {
+        padding: 15px 10px;
+    }
+    
+    .info-item i {
+        font-size: 24px;
+    }
+    
+    .info-item h3 {
+        font-size: 14px;
+        margin: 10px 0 5px 0;
+    }
+    
+    .info-item p {
+        font-size: 12px;
+    }
+    
+    .contact-form {
+        padding: 15px;
+        gap: 12px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .submit-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 15px 10px;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* Extra Small Mobile (320px - 359px) */
+@media (max-width: 359px) {
+    .app {
+        width: 100%;
+        padding: 0 5px;
+    }
+    
+    .header {
+        padding: 5px 0;
+    }
+    
+    .logo {
+        width: 45px;
+    }
+    
+    .font-logo {
+        font-size: 12px;
+    }
+    
+    nav {
+        padding: 5px;
+        border: 1px solid #ddd;
+    }
+    
+    nav a {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    
+    .hero {
+        margin-top: 160px;
+        padding: 10px 5px;
+    }
+    
+    .hero-image {
+        height: 150px;
+    }
+    
+    .hero-info h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .section-name h2 {
+        font-size: 16px;
+    }
+    
+    .category-box .box {
+        flex: 0 1 calc(50% - 4px);
+        min-height: 80px;
+    }
+    
+    .product-card {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .cart-table {
+        font-size: 9px;
+    }
+    
+    .cart-table th,
+    .cart-table td {
+        padding: 4px 2px;
+    }
+    
+    .login-box {
+        padding: 12px;
+    }
+    
+    .login-box h2 {
+        font-size: 18px;
+    }
+}
+.pc-1{
+    background: url(images/various-fresh-vegetables-container-black-wooden-surface.jpg) center/cover;
+}
